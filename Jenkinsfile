@@ -13,7 +13,7 @@ node('master') {
     }
     
     stage('RUN Python Script') {
-        sh "chmod 777 hello_+++nmit.py"
+        sh "chmod 777 hello_nmit.py"
         sh "./hello_nmit.py"
     }
 
